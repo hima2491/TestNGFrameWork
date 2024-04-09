@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+
+		<listener class-name="LoginListeners.TestListener">
+
+	</listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="LoginTestCases.LoginTest" />
+			<class name="LoginTestCases.UserMenuDropDownTest" />
+			<class name="LoginTestCases.AccountsTest" />
+			<class name="LoginTestCases.RandomScenariosTest" />
+			<class name="LoginTestCases.OppurtunityTest" />
+			<class name="LoginTestCases.LeadsTest" />
+			<class name="LoginTestCases.ContactsTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

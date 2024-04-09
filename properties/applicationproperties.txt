@@ -1,0 +1,6 @@
+url=https://login.salesforce.com/
+username=hima@abb.com
+password=chindu@7022
+forgotpwusername=hima@abb.com
+filepath=C:\\Users\\himabindhu\\OneDrive\\Desktop\\bunny.png
+filelinkpath=C:\\Java\\Files\\fileuploadintestestcase6.txt
